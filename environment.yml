@@ -1,0 +1,30 @@
+name: seminar
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - nibabel=2.3.0=pyh24bf2e0_1
+  - nipype=1.1.2=py36_0
+  - ipython=6.5.0=py36_0
+  - jupyter=1.0.0=py36_7
+  - mkl=2019.0=118
+  - mkl_fft=1.0.4=py36h4414c95_1
+  - mkl_random=1.0.1=py36h4414c95_1
+  - numpy=1.15.1=py36h1d66e8a_0
+  - pandas=0.23.4=py36h04863e7_0
+  - pip=10.0.1=py36_0
+  - python=3.6.6=hc3d631a_0
+  - scikit-learn=0.19.1=py36hedc7406_0
+  - scipy=1.1.0=py36hfa4b5c9_1
+  - seaborn=0.9.0=py36_0
+  - statsmodels=0.9.0=py36h035aef0_0
+  - pip:
+    - jupyterthemes==0.19.6
+    - lesscpy==0.13.0
+    - matplotlib-venn==0.11.5
+    - mpmath==1.0.0
+    - nilearn==0.4.2
+    - nipy==0.4.2
+    - ply==3.11
+    - pyhamcrest==1.9.0
+    - sympy==1.3
